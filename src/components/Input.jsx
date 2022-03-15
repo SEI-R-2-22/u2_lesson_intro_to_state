@@ -1,10 +1,10 @@
-const Input = (props) => {
+const Input = () => {
   
   return (
     <div>
       <label>Input Task: </label>
-      <input type="text" name="task" onChange={props.handleChange} value={props.input}/>
-      <button onClick={props.addTask} className="add-button">Add</button>
+      <input type="text" name="task"/>
+      <button className="add-button">Add</button>
     </div>
   )
 }
